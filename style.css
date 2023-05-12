@@ -1,0 +1,11 @@
+body {
+    font-size: 15pt;
+    margin: 0px
+}
+.absolutes {
+    position: absolute
+}
+.spoderman {
+    position: absolute
+    margin-right= 80%
+}
