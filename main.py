@@ -3,3 +3,7 @@ def change_text(id,text):
   
 def change_innerhtml(id,html):
   Element(id).innerHtml=html
+
+def change_innerhtmlandtext(id,html,text):
+  change_innerhtml(id,html)
+  change_text(id,text)
