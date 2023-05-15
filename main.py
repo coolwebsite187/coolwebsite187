@@ -9,5 +9,7 @@ def change_innerhtmlandtext(id,html,text):
   change_text(id,text)
 
 def adolf(id,targetid,html,text):
+  global fundysymbol
   change_text(targetid,text)
   change_innerhtml(id,html)
+fundysymbol='<a href=\"https://www.youtube.com/watch?v=CEUPIET-r78\" target=\"_blank\" id=\"aadolf\">'
