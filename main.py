@@ -7,3 +7,7 @@ def change_innerhtml(id,html):
 def change_innerhtmlandtext(id,html,text):
   change_innerhtml(id,html)
   change_text(id,text)
+
+def adolf(id,targetid,html,text):
+  change_text(targetid,text)
+  change_innerhtml(id,html)
